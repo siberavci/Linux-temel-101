@@ -1,0 +1,65 @@
+Linux'un temel komutları ve açıklamaları:
+
+ls: (List) Mevcut dizindeki dosyaları ve dizinleri listeler.
+
+cd: (Change Directory) Dizin değiştirmek için kullanılır.
+cd dizin_adı
+
+pwd: (Print Working Directory) Çalışılan dizinin tam yolunu gösterir.
+pwd
+
+cp: Dosyaları kopyalamak için kullanılır.
+cp kaynak_dosya hedef_dizin
+
+mv: Dosyaları taşımak veya yeniden adlandırmak için kullanılır.
+mv eski_ad yeni_ad
+
+rm: Dosyaları silmek için kullanılır.
+rm dosya_adı
+
+mkdir: Yeni bir dizin oluşturur.
+mkdir dizin_adı
+
+rmdir: Boş bir dizini siler.
+rmdir dizin_adı
+
+cat: Dosyanın içeriğini gösterir.
+cat dosya_adı
+
+nano: Metin düzenleyici açar.
+nano dosya_adı
+
+touch: Yeni bir dosya oluşturur veya mevcut bir dosyanın zaman damgasını günceller.
+touch dosya_adı
+
+chmod: Dosya veya dizinlerin izinlerini değiştirir.
+chmod izinler dosya_adı
+
+chown: Dosyanın sahibini değiştirir.
+chown kullanıcı_adı dosya_adı
+
+ps: Çalışan süreçleri listeler.
+ps
+
+kill: Bir süreci sonlandırmak için kullanılır.
+kill PID
+
+top: Sistem kaynaklarını canlı olarak gösterir.
+top
+
+df: Disk kullanımını gösterir.
+df
+
+du: Dizinlerin disk kullanımını gösterir.
+du
+
+tar: Dosyaları arşivlemek ve çıkarmak için kullanılır.
+tar -cvf arsiv.tar dosya_dizinleri
+tar -xvf arsiv.tar
+
+grep: Metin içinde arama yapar.
+grep 'arama_metni' dosya_adı
+
+Bu komutlar, Linux terminalinde sıkça kullanılan temel komutlardan sadece birkaçıdır.
+Her bir komutun daha fazla seçeneği ve kullanım şekli bulunabilir, bu yüzden ilgili komutun man sayfasını (manuel sayfa) incelemek genellikle faydalıdır. 
+Örneğin, man ls komutu ls komutunun kullanımını detaylı olarak gösterir.
